@@ -19,6 +19,9 @@ MonoBehaviour:
   - pbObjExportVertexColors
   - pbObjTextureOffsetScale
   - pbObjQuads
+  - pb_SmoothingGroupEditor::m_ShowPreview
+  - pb_SmoothingGroupEditor::m_DrawNormals
+  - pb_SmoothingGroupEditor::m_PreviewDither
   m_Int_keys:
   - pbDefaultEditLevel
   - pbHandleAlignment
@@ -27,14 +30,18 @@ MonoBehaviour:
   m_Float_keys:
   - pbEditorScroll.x
   - pbEditorScroll.y
+  - pb_SmoothingGroupEditor::m_NormalsSize
+  - pb_SmoothingGroupEditor::m_PreviewOpacity
   m_String_keys: []
   m_Color_keys: []
   m_Material_keys: []
-  m_Bool_values: 00010001000001
-  m_Int_values: 00000000000000000100000000000000
+  m_Bool_values: 00010001000001010100
+  m_Int_values: 00000000000000000200000000000000
   m_Float_values:
   - 0
   - 0
+  - 0.001
+  - 0.001
   m_String_values: []
   m_Color_values: []
   m_Material_values: []
