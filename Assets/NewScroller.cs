@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class NewScroller : MonoBehaviour {
 
+    int length = 4;
     int moveSpeed = 12;
     float rightPoint;
     float leftPoint;
@@ -17,8 +18,8 @@ public class NewScroller : MonoBehaviour {
         Debug.Log(r.bounds.size.x);
 
 
-        rightPoint = r.bounds.size.x * 3;
-        leftPoint = r.bounds.size.x * -2;
+        rightPoint = r.bounds.size.x * length;
+        leftPoint = r.bounds.size.x * -(length - 1);
     }
 	
 	// Update is called once per frame
