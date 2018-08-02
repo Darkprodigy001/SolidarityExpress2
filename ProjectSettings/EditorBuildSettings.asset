@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Original/Andrew/Forest.unity
-    guid: 835f4e7926e3b41468f5f5cb5c8791b1
   - enabled: 1
     path: Assets/Rework/Rework.unity
     guid: 3ea2d146fb692a545914315e5497bf3f
