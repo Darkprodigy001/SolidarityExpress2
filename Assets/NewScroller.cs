@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewScroller : MonoBehaviour {
 
     int length = 4;
-    int moveSpeed = 12;
+    int moveSpeed = 2;
     float rightPoint;
     float leftPoint;
     Renderer r;
