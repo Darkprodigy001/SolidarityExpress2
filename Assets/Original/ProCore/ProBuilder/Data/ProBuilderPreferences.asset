@@ -36,12 +36,12 @@ MonoBehaviour:
   m_Color_keys: []
   m_Material_keys: []
   m_Bool_values: 00010001000001010100
-  m_Int_values: 00000000000000000200000000000000
+  m_Int_values: 01000000000000000200000000000000
   m_Float_values:
   - 0
   - 0
-  - 0.001
-  - 0.001
+  - 1
+  - 1
   m_String_values: []
   m_Color_values: []
   m_Material_values: []
