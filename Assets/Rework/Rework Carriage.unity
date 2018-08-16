@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4400106, g: 0.48849833, b: 0.56869566, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -31124,7 +31124,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-66690
+  m_Name: pb_Mesh19952
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -36269,7 +36269,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh8040
+  m_Name: pb_Mesh20820
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -56913,7 +56913,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-167532
+  m_Name: pb_Mesh19990
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -63776,7 +63776,7 @@ MonoBehaviour:
       localPivot: {x: 1.5, y: -2.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: ba3c018241b1a894089a4cd54e005406, type: 2}
+    _mat: {fileID: 2100000, guid: dca486989a644354bb42b497db084ba9, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -63838,7 +63838,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ba3c018241b1a894089a4cd54e005406, type: 2}
+  - {fileID: 2100000, guid: dca486989a644354bb42b497db084ba9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -70880,7 +70880,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-500284
+  m_Name: pb_Mesh20518
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -73157,7 +73157,7 @@ MonoBehaviour:
       localPivot: {x: 1.5, y: -2.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: ba3c018241b1a894089a4cd54e005406, type: 2}
+    _mat: {fileID: 2100000, guid: dca486989a644354bb42b497db084ba9, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -73219,7 +73219,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ba3c018241b1a894089a4cd54e005406, type: 2}
+  - {fileID: 2100000, guid: dca486989a644354bb42b497db084ba9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79076,7 +79076,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-239226
+  m_Name: pb_Mesh20398
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
