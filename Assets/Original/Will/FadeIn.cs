@@ -38,26 +38,24 @@ public class FadeIn: MonoBehaviour
     }
 
     IEnumerator FadeFromBlack()
+    {
+        for (float f = 1f; f >= 0; f -= 0.01f)
         {
-            for (float f = 1f; f >= 0; f -= 0.01f)
-            {
-                Color c = r.material.color;
-                c.a = f;
-                r.material.color = c;
-                yield return null;
-            }
+            Color c = r.material.color;
+            c.a = f;
+            r.material.color = c;
+            yield return null;
         }
+    }
+
+    public void ToBlack()
+    {
+        StartCoroutine("FadeInScreen");
+    }
 
 
 
-        public void ToBlack()
-        {
-            StartCoroutine("FadeInScreen");
-        }
-
-
-
-        IEnumerator FadeInScreen()
+    IEnumerator FadeInScreen()
     {
         for (float f = 0f; f <= 1; f += 0.01f)
         {
@@ -67,4 +65,5 @@ public class FadeIn: MonoBehaviour
             yield return null;
         }
     }
+
 }
