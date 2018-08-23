@@ -7,6 +7,9 @@ public class FadeIn: MonoBehaviour
 
     Renderer r;
 
+    public float time;
+    float timer = 0;
+
     // Use this for initialization
     void Start()
     {
@@ -14,23 +17,21 @@ public class FadeIn: MonoBehaviour
         FromBlack();
     }
 
-    //// Update is called once per frame
-    //void Update()
-    //{
+    // Update is called once per frame
+    void Update()
+    {
 
-    //    if (Input.GetKeyDown(KeyCode.Q))
-    //    {
-    //        StartCoroutine("ToBlack");
+        timer += Time.deltaTime;
 
-    //    }
+        if(timer >= time)
+        {
 
-    //    if (Input.GetKeyDown(KeyCode.W))
-    //    {
-    //        StartCoroutine("FromBlack");
+            ToBlack();
 
-    //    }
+        }
+        
 
-    //}
+    }
 
     public void FromBlack()
     {
